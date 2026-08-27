@@ -1,0 +1,397 @@
+.hero {
+  position: relative;
+  min-height: 110vh;
+  padding-top: 120px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(180deg, #eef7c8, #d8ecb5);
+}
+
+/* Hero Content */
+
+.hero-content {
+  position: relative;
+  z-index: 10;
+  max-width: 600px;
+}
+
+.hero-badge {
+  display: inline-block;
+  background: #dcefc1;
+  padding: 10px 18px;
+  border-radius: 30px;
+  color: #1f5f50;
+  font-weight: 600;
+}
+
+.hero h1{
+    font-size:72px;
+    line-height:1;
+    margin:15px 0;
+}
+.hero h1 span{
+    font-family:'Great Vibes',cursive;
+    font-size:96px;
+    line-height:0.90;
+    display:block;
+    white-space:nowrap;
+    text-shadow:0 8px 20px rgba(0,0,0,.18);
+}
+.hero p {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  margin-top: 35px;
+  display: flex;
+  gap: 18px;
+}
+
+.primary-btn,
+.secondary-btn {
+  padding: 15px 30px;
+  border-radius: 40px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.primary-btn {
+  background: linear-gradient(135deg,#d8ee9c,#68b68b);
+}
+
+.secondary-btn {
+  background: rgba(255,255,255,.2);
+  color: white;
+  border: 1px solid rgba(255,255,255,.5);
+}
+
+/* ---------- Layered Waves ---------- */
+
+.wave {
+  position: absolute;
+  left: -10%;
+  width: 120%;
+  border-radius: 50%;
+  box-shadow: 0 -12px 20px rgba(0,0,0,.15);
+}
+
+.wave1 {
+  height: 220px;
+  bottom: 280px;
+  background: #cce7a8;
+  transform: rotate(-4deg);
+}
+
+.wave2 {
+  height: 260px;
+  bottom: 170px;
+  background: #9ecb92;
+  transform: rotate(2deg);
+}
+
+.wave3 {
+  height: 300px;
+  bottom: 60px;
+  background: #5fae96;
+  transform: rotate(-3deg);
+}
+
+.wave4 {
+  height: 330px;
+  bottom: -120px;
+  background: #236d6fe2;
+  transform: rotate(3deg);
+}
+
+/* Responsive */
+
+@media (max-width:768px){
+
+.hero{
+text-align:center;
+padding:0 20px;
+}
+
+.hero-content{
+max-width:100%;
+}
+
+.hero h1{
+font-size:48px;
+}
+
+.hero-buttons{
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.wave1{
+height:160px;
+bottom:240px;
+}
+
+.wave2{
+height:200px;
+bottom:140px;
+}
+
+.wave3{
+height:240px;
+bottom:40px;
+}
+
+.wave4{
+height:260px;
+bottom:-100px;
+}
+
+}
+/*hero two column layout */
+.hero-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:80px;
+    min-height:100vh;
+}
+
+/*profilecircle*/
+.profile-wrapper{
+    position: relative;
+    width: 420px;
+    height: 500px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.profile-circle{
+    width:360px;
+    height:360px;
+    border-radius:50%;
+    padding:12px;
+    background:#d8ee9c;
+    box-shadow:
+        0 25px 45px rgba(0,0,0,.25),
+        0 0 35px rgba(216,238,156,.35);
+    overflow:hidden;
+    position:relative;
+    z-index:5;
+}
+
+.profile-circle img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:50%;
+}
+
+/*Rotating Decorative Rings*/
+
+.ring{
+    position:absolute;
+    border-radius:50%;
+    border:3px solid rgba(255,255,255,.72);
+    z-index:2;
+}
+
+.ring1{
+    width:390px;
+    height:390px;
+    border-left-color:transparent;
+    border-bottom-color:transparent;
+    animation:rotate 18s linear infinite;
+}
+
+.ring2{
+    width:430px;
+    height:430px;
+    border-top-color:transparent;
+    border-right-color:transparent;
+    animation:rotateReverse 22s linear infinite;
+}
+
+
+@keyframes rotate{
+from{transform:rotate(0deg);}
+to{transform:rotate(360deg);}
+}
+
+@keyframes rotateReverse{
+from{transform:rotate(360deg);}
+to{transform:rotate(0deg);}
+}
+
+/*Floating Green Card*/
+
+.floating-card{
+    position:absolute;
+    bottom:18px;
+    left:50%;
+    transform:translateX(-50%);
+    width:220px;
+
+    background:linear-gradient(135deg,#6ab98b,#3b8d72);
+
+    padding:18px 20px;
+    border-radius:30px;
+
+    color:white;
+    font-weight:600;
+    text-align:center;
+    line-height:1.5;
+
+    box-shadow:0 18px 35px rgba(0,0,0,.22);
+
+    z-index:20;
+}
+
+
+
+.floating-card .code-icon{
+    font-size:28px;
+    margin-bottom:10px;
+}
+
+.floating-card span{
+    display:block;
+}
+
+
+/*Mobile Responsive*/
+@media(max-width:768px){
+
+.hero-container{
+flex-direction:column;
+text-align:center;
+gap:40px;
+}
+.social-icons{
+    justify-content:center;
+    margin-top:30px;
+    align-items: center;
+    margin-left: 225px
+}
+
+.profile-wrapper{
+    width:500px;
+    height:500px;
+}
+
+.profile-circle{
+width:400px;
+height:400px;
+}
+
+.ring1{
+width:305px;
+height:305px;
+}
+
+.ring2{
+width:335px;
+height:335px;
+}
+
+.floating-card{
+position:relative;
+margin-top:20px;
+bottom:18px;
+left:auto;
+transform:none;
+width:190px;
+}}
+
+body{
+    font-family:'Poppins',sans-serif;
+}
+
+.hero h1 span{
+    font-family:'Great Vibes',cursive;
+    font-size:105px;
+    color:white;
+}
+
+.sparkle{
+position:absolute;
+color:white;
+font-size:30px;
+z-index:12;
+opacity:.9;
+animation:floatSparkle 4s ease-in-out infinite;
+}
+
+.sparkle1{top:205px;left:240px;}
+.sparkle2{top:250px;left:620px;}
+.sparkle3{top:370px;left:640px;}
+.sparkle4{top:420px;left:220px;}
+
+
+@keyframes floatSparkle{
+0%,100%{transform:translateY(0);}
+50%{transform:translateY(-12px);}
+}
+
+.profile-circle{
+width:360px;
+height:360px;
+padding:14px;
+border-radius:50%;
+background:#d8ee9c;
+box-shadow:
+0 20px 40px rgba(0,0,0,.25),
+0 0 40px rgba(216,238,156,.4);
+}
+
+.hero h1{
+font-size:78px;
+line-height:1;
+color:white;
+text-shadow:
+0 8px 18px rgba(0,0,0,.25),
+0 2px 6px rgba(255,255,255,.15);
+}
+
+.social-icons{
+display:flex;
+gap:18px;
+margin-top:40px;
+}
+
+.social-icons{
+    display:flex;
+    gap:16px;
+    margin-top:35px;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    position:relative;   /* Remove absolute positioning */
+    z-index:20;
+}
+
+.social-icons a{
+    width:52px;
+    height:52px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border:1.5px solid rgba(255,255,255,.7);
+    border-radius:50%;
+    color:white;
+    font-size:22px;
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(10px);
+    transition:all .3s ease;
+}
+
+.social-icons a:hover{
+    background:var(--dark);
+    transform:translateY(-6px);
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+}

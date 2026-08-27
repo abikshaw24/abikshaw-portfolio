@@ -1,0 +1,19 @@
+:root {
+  --bg: #eef7c8;
+  --light: #d6e9a4;
+  --primary: #4b9c7d;
+  --dark: #1f5f50;
+  --card: #f8fff0;
+  --white: #ffffff;
+}
+
+body {
+  background: var(--bg);
+  color: var(--dark);
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
