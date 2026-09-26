@@ -16,7 +16,7 @@ Portfolio built to showcase my projects, technical skills, and contact informati
 
 A clean landing page introducing my profile with animated layered waves and a responsive hero layout.
 
-![Hero](assets/hero.png)
+<p align="center"><img src="assets/hero.png" alt="Featured Projects" width="900"/></p
 
 ---
 
@@ -24,7 +24,7 @@ A clean landing page introducing my profile with animated layered waves and a re
 
 A responsive About section highlighting my background as a fresher, MERN stack expertise, and project achievements.
 
-![About](assets/about.png)
+<p align="center"><img src="assets/about.png" alt="Featured Projects" width="900"/></p
 
 ---
 
@@ -42,7 +42,7 @@ Technologies I use to build modern web applications.
 * MySQL
 * Git & GitHub
 
-![Skills](assets/skills.png)
+<p align="center"><img src="assets/skills.png" alt="Featured Projects" width="900"/></p
 
 ---
 
@@ -50,7 +50,7 @@ Technologies I use to build modern web applications.
 
 A dedicated project showcase section with premium mockups.
 
-![Featured Projects](assets/featured-projects.png)
+<p align="center"><img src="assets/featured-projects.png" alt="Featured Projects" width="900"/></p>
 
 ### Included Projects
 
@@ -65,7 +65,7 @@ A dedicated project showcase section with premium mockups.
 
 Each project includes a description, technology badges, and GitHub links.
 
-![Projects](assets/project-cards.png)
+<p align="center"><img src="assets/project-cards.png" alt="Featured Projects" width="900"/></p
 
 ---
 
@@ -73,7 +73,7 @@ Each project includes a description, technology badges, and GitHub links.
 
 A responsive contact form with contact details and a modern card-based layout.
 
-![Contact](assets/contact.png)
+<p align="center"><img src="assets/contact.png" alt="Contact" width="900"/></p>
 
 ---
 
@@ -81,8 +81,7 @@ A responsive contact form with contact details and a modern card-based layout.
 
 Clean footer with quick navigation and social media links.
 
-![Footer](assets/footer.png)
-
+<p align="center"><img src="assets/footer.png" alt="Footer" width="900"/></p>
 ---
 
 ## Features
@@ -140,7 +139,7 @@ Deployed using **Netlify**.
 
 ## Author
 
-**Abikshaw Lakshmi**
+**Abikshaw L**
 
 * GitHub: github.com/abikshaw24
 * LinkedIn: linkedin.com/in/abikshaw-l-7a81612b4
