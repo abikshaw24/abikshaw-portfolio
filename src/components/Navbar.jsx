@@ -14,7 +14,14 @@ function Navbar() {
           <li><a href="#contact">Contact</a></li>
         </ul>
 
-        <button className="hire-btn">Hire Me</button>
+        <button className="hire-btn"
+              onClick={() => { document.getElementById("contact").scrollIntoView({
+                  behavior: "smooth",
+                });
+              }}
+            >
+              Hire Me
+            </button>
       </nav>
     </header>
   );

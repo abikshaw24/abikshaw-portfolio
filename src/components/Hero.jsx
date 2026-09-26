@@ -26,24 +26,34 @@ function Hero() {
             <span className="hero-badge">● FULL STACK DEVELOPER</span>
 
             <h1>
-              Hi, I'm <br/>
-              <span>Abikshaw Lakshmi</span>
+              Hi, I'm 
+              <br/>
+              <br/>
+              <span>Abikshaw L</span>
             </h1>
 
             <p>
-    A passionate Full Stack Developer who builds responsive,
-    user-friendly web applications using Javascript , HTML , CSS and Bootstrap in FRONT END and
-    React , Nodejs and Expressjs in Backend 
-    and Mongodb and SQL for dtabase management .
-    I enjoy turning ideas into modern,
-    real-world digital experiences.
+  
+  Passionate Full Stack Developer specializing in JavaScript, HTML, CSS,
+  Bootstrap, React, Node.js, Express.js, MongoDB, and SQL. I enjoy building
+  responsive, user-friendly web applications and turning ideas into modern,
+  real-world digital experiences.
+
             </p>
 
-            <div className="hero-buttons">
-              <button className="primary-btn">Download CV</button>
-              <button className="secondary-btn">Contact Me</button>
-            </div>
+<div className="hero-buttons">
+  <a
+    href="\resume\Abikshaw_Lakshmi_Resume_Fixed.pdf"
+    download="Abikshaw_Lakshmi_Resume_Fixed.pdf"
+    className="primary-btn"
+  >
+    Download Resume
+  </a>
 
+  <a href="#contact" className="secondary-btn">
+    Contact Me
+  </a>
+</div>
             <div className="social-icons">
               {/* your icons */}
             </div>

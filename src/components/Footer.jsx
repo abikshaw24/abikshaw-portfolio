@@ -47,9 +47,20 @@ function Footer() {
 
           <div className="footer-icons">
 
-            <a href="#"><FaGithub/></a>
+            <a
+            href="https://github.com/abikshaw24"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub />
+          </a>
 
-            <a href="#"><FaLinkedinIn/></a>
+              <a
+            href="https://www.linkedin.com/in/abikshaw-l-7a81612b4/"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedinIn />
+          </a>
 
             <a href="#"><FaInstagram/></a>
 

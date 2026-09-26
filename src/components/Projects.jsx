@@ -1,7 +1,7 @@
 import "./../styles/projects.css";
 import { motion } from "framer-motion";
 import { projects } from "../portfolioData";
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { FaGithub} from "react-icons/fa";
 
 function Projects() {
   return (
@@ -48,13 +48,6 @@ function Projects() {
                     <FaGithub /> GitHub
                   </a>
 
-                  <a
-                    href={project.live}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaExternalLinkAlt /> Live
-                  </a>
                 </div>
               </div>
             </motion.div>

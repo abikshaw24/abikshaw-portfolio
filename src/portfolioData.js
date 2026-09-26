@@ -11,8 +11,8 @@ export const projects = [
     description:
       "A full-stack MERN grocery shopping application with product management, shopping cart, billing system, customer registration, and MongoDB integration.",
     tech: ["React", "Node.js", "Express", "MongoDB"],
-    github: "#",
-    live: "#",
+    github: "https://github.com/abikshaw24/grocery-shop-app",
+   
   },
   {
     id: 2,
@@ -21,8 +21,8 @@ export const projects = [
     description:
       "A modern responsive portfolio website featuring glassmorphism design, layered wave animations, and an elegant user interface built with React.",
     tech: ["React", "CSS", "Framer Motion"],
-    github: "#",
-    live: "#",
+    github: "http://github.com/abikshaw24/abikshaw-portfolio",
+    
   },
   {
     id: 3,
@@ -31,8 +31,8 @@ export const projects = [
     description:
       "A responsive organic e-commerce website with a premium green-themed interface, product categories, shopping experience, and modern UI design.",
     tech: ["HTML", "CSS", "JavaScript", "Bootstrap","Mongodb"],
-    github: "#",
-    live: "#",
+    github: "http://github.com/abikshaw24/FARM-STORE",
+    
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ export const projects = [
     description:
       "A professional business management dashboard with analytics, customer management, product tracking, and responsive admin interface.",
     tech: ["Bootstrap", "JavaScript", "HTML","CSS"],
-    github: "#",
-    live: "#",
+    github: "http://github.com/abikshaw24/business-builders",
+   
   },
 ];

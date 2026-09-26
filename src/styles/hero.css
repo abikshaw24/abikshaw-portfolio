@@ -51,6 +51,13 @@
   gap: 18px;
 }
 
+.hero-buttons a {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .primary-btn,
 .secondary-btn {
   padding: 15px 30px;
@@ -62,10 +69,10 @@
 
 .primary-btn {
   background: linear-gradient(135deg,#d8ee9c,#68b68b);
-}
+color: white;}
 
 .secondary-btn {
-  background: rgba(255,255,255,.2);
+  background: linear-gradient(135deg,#d8ee9c,#253b2f6d);
   color: white;
   border: 1px solid rgba(255,255,255,.5);
 }
@@ -265,48 +272,93 @@ to{transform:rotate(0deg);}
 
 
 /*Mobile Responsive*/
-@media(max-width:768px){
+@media (max-width:768px){
 
-.hero-container{
-flex-direction:column;
-text-align:center;
-gap:40px;
-}
-.social-icons{
+  .hero{
+    min-height:auto;
+    padding:100px 20px 60px;
+  }
+
+  .hero-container{
+    flex-direction:column-reverse;
+    align-items:center;
     justify-content:center;
-    margin-top:30px;
-    align-items: center;
-    margin-left: 225px
-}
+    text-align:center;
+    gap:30px;
+    min-height:auto;
+  }
 
-.profile-wrapper{
-    width:500px;
-    height:500px;
-}
+  .hero-content{
+    max-width:100%;
+  }
 
-.profile-circle{
-width:400px;
-height:400px;
-}
+  .hero h1{
+    font-size:42px;
+  }
 
-.ring1{
-width:305px;
-height:305px;
-}
+  .hero h1 span{
+    font-size:56px;
+    white-space:normal;
+  }
 
-.ring2{
-width:335px;
-height:335px;
-}
+  .hero p{
+    font-size:16px;
+    line-height:1.7;
+    max-width:320px;
+    margin:18px auto;
+  }
 
-.floating-card{
-position:relative;
-margin-top:20px;
-bottom:18px;
-left:auto;
-transform:none;
-width:190px;
-}}
+  .hero-buttons{
+    flex-direction:column;
+    align-items:center;
+    width:100%;
+  }
+
+  .hero-buttons a,
+  .hero-buttons button{
+    width:240px;
+  }
+
+  .profile-wrapper{
+    width:220px;
+    height:220px;
+    margin:0 auto;
+  }
+
+  .profile-circle{
+    width:180px;
+    height:180px;
+    margin:0 auto;
+    padding:8px;
+  }
+
+  .ring{
+    display:none;
+  }
+
+  .floating-card{
+    position:absolute;
+    bottom:-20px;
+    left:50%;
+    transform:translateX(-50%) scale(.85);
+    width:150px;
+    padding:12px;
+  }
+
+  .social-icons{
+    justify-content:center;
+    margin:30px auto 0;
+  }
+
+  .sparkle{
+    display:none;
+  }
+
+  .wave1{height:120px;bottom:180px;}
+  .wave2{height:160px;bottom:100px;}
+  .wave3{height:200px;bottom:20px;}
+  .wave4{height:220px;bottom:-90px;}
+}
 
 body{
     font-family:'Poppins',sans-serif;
@@ -395,3 +447,5 @@ margin-top:40px;
     transform:translateY(-6px);
     box-shadow:0 10px 25px rgba(0,0,0,.2);
 }
+
+
