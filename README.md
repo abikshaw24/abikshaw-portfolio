@@ -137,9 +137,6 @@ Deployed using **Netlify**.
 
 ---
 
-## Author
-
-**Abikshaw L**
 
 * GitHub: github.com/abikshaw24
 * LinkedIn: linkedin.com/in/abikshaw-l-7a81612b4
